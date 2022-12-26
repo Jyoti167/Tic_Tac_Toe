@@ -1,0 +1,19 @@
+<%- include("header") %>
+    <form class="d-block container mt-5 border border-1 w-50 flex-wrap">
+        <a class=" mt-5 text-dark" style="text-decoration:none; font-size:1.3vmax; font-weight: 500; " href="/welcome">
+           go back </a>
+        <h3 class="ml-5 mt-3">Create account</h3>
+        <h1 class="ml-5 mt-3">Let's get to know you better!</h1>
+        <h3>Your name</h3>
+        <input class="form-control p-2 fs-4 mt-3" style="background-color: rgb(204, 203, 203);" type="text" placeholder="Type your name here" name="name">
+        <h3>Username</h3>
+        <input class="form-control p-2 fs-4 mt-3" style="background-color: rgb(204, 203, 203);" type="text" placeholder="Type your username here" name="username">
+        <h3>Email</h3>
+        <input class="form-control p-2 fs-4 mt-3" style="background-color: rgb(204, 203, 203);" type="email" placeholder="Type your email here" name="email">
+        <h3>Password</h3>
+        <input class="form-control p-2 fs-4 mt-3" style="background-color: rgb(204, 203, 203);" type="password" placeholder="Type your password here" name="password">
+        <button class="btn btn-success w-100 fs-4 text-light border border-1 align-centre mt-3 mb-3"><%= msg%></button>
+        <button class="btn  w-100 fs-4 text-light border border-1 align-centre mt-3 mb-3" style="background-color: rgb(204, 203, 203);">Register</button>
+    </form>
+
+    <%- include("footer") %>
